@@ -1,0 +1,21 @@
+[project]
+name = "ai-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rohit Sharma", email = "rohit.sharma2522@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "openai>=2.48.0",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+ai-engineering = "ai_engineering:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
