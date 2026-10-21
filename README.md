@@ -30,6 +30,4 @@ The Streamlit weather agent is in `03-weather-agent-using-streamlit/`. It uses O
 
 ## API Key Safety
 
-- Keep real credentials in `.env` or another local secret store. Do not paste keys into source files, notebooks, screenshots, or commits.
 - `.env` is listed in `.gitignore`; use `.env.example` as a placeholder template and never put real credentials in it.
-- If a key has been shared or committed, revoke it with the provider and create a replacement. Removing it from the latest commit alone does not invalidate the exposed key.
